@@ -1099,7 +1099,7 @@ margin: 11px 15px 11px 17px;
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 768px) {
     .container{
         width: 339px;
         margin: 0 auto;
@@ -1153,6 +1153,9 @@ margin: 11px 15px 11px 17px;
     }*/
     .step2_part1{
        margin-top: 36px;
+    }
+    .step2_part1_rigth{
+        display: none;
     }
     .step2_part1_left{
         margin-top: 0px;
