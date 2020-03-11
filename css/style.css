@@ -1101,7 +1101,7 @@ margin: 11px 15px 11px 17px;
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 339px;
+        max-width: 339px;
         margin: 0 auto;
         padding-bottom: 22px;
         padding-top: 24px;
