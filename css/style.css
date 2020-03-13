@@ -1134,7 +1134,7 @@ margin: 11px 15px 11px 17px;
     }
     .buttomsecond, .buttomthird{
         width: 338px;
-        margin-left: -22px;
+        margin-left: 0;
     }
     .buttomsecond{
         margin-bottom: 20px;
@@ -1383,7 +1383,7 @@ margin: 11px 15px 11px 17px;
 @media screen and (min-width: 769px) and (max-width: 1300px) {
     body {max-width: 100%}
     .container{
-        max-width: 1092px;
+        max-width: 800px;
         margin: 0 auto;
         padding-bottom: 22px;
         padding-top: 24px;
@@ -1415,7 +1415,10 @@ margin: 11px 15px 11px 17px;
     }
     .buttomsecond, .buttomthird{
         width: 338px;
-        margin-left: -22px;
+        margin-left: 0;
+    }
+    .buttomsecond{
+        margin-right: 0;
     }
     .buttomsecond{
         margin-bottom: 20px;
@@ -1664,6 +1667,6 @@ margin: 11px 15px 11px 17px;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
-        margin-left: 33%;
+        align-items: center;
     }
 }
